@@ -13,18 +13,12 @@ local Frame = Instance.new("Frame")
 local Close = Instance.new("TextButton")
 local UICorner_3 = Instance.new("UICorner")
 local UIGradient_2 = Instance.new("UIGradient")
-local Speed = Instance.new("TextButton")
-local UICorner_4 = Instance.new("UICorner")
 local TextButton = Instance.new("TextButton")
-local UICorner_5 = Instance.new("UICorner")
+local UICorner_4 = Instance.new("UICorner")
 local TextLabel = Instance.new("TextLabel")
 local TextLabel_2 = Instance.new("TextLabel")
-local Killaura = Instance.new("TextButton")
-local UICorner_6 = Instance.new("UICorner")
-local fly = Instance.new("TextButton")
-local UICorner_7 = Instance.new("UICorner")
-local ee = Instance.new("TextButton")
-local UICorner_8 = Instance.new("UICorner")
+local Speed = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
 local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
 
 --Properties:
@@ -82,21 +76,6 @@ UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fr
 UIGradient_2.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.00, 0.34), NumberSequenceKeypoint.new(0.99, 0.37), NumberSequenceKeypoint.new(1.00, 0.00)}
 UIGradient_2.Parent = Close
 
-Speed.Name = "Speed"
-Speed.Parent = MainFrame
-Speed.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Speed.BackgroundTransparency = 0.950
-Speed.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Speed.BorderSizePixel = 0
-Speed.Position = UDim2.new(0.0358361788, 0, 0.252148986, 0)
-Speed.Size = UDim2.new(0, 100, 0, 54)
-Speed.Font = Enum.Font.Kalam
-Speed.Text = "Speed"
-Speed.TextColor3 = Color3.fromRGB(0, 0, 0)
-Speed.TextSize = 41.000
-
-UICorner_4.Parent = Speed
-
 TextButton.Parent = MainFrame
 TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextButton.BackgroundTransparency = 0.950
@@ -109,7 +88,7 @@ TextButton.Text = "InfiniteJump"
 TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.TextSize = 26.000
 
-UICorner_5.Parent = TextButton
+UICorner_4.Parent = TextButton
 
 TextLabel.Parent = MainFrame
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -135,57 +114,27 @@ TextLabel_2.Text = "V1"
 TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_2.TextSize = 72.000
 
-Killaura.Name = "Killaura"
-Killaura.Parent = MainFrame
-Killaura.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Killaura.BackgroundTransparency = 0.950
-Killaura.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Killaura.BorderSizePixel = 0
-Killaura.Position = UDim2.new(0.426621169, 0, 0.252148986, 0)
-Killaura.Size = UDim2.new(0, 100, 0, 54)
-Killaura.Font = Enum.Font.Kalam
-Killaura.Text = "Killaura"
-Killaura.TextColor3 = Color3.fromRGB(0, 0, 0)
-Killaura.TextSize = 26.000
+Speed.Name = "Speed"
+Speed.Parent = MainFrame
+Speed.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Speed.BackgroundTransparency = 0.950
+Speed.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Speed.BorderSizePixel = 0
+Speed.Position = UDim2.new(0.0358361788, 0, 0.252148986, 0)
+Speed.Size = UDim2.new(0, 100, 0, 54)
+Speed.Font = Enum.Font.Kalam
+Speed.Text = "Speed"
+Speed.TextColor3 = Color3.fromRGB(0, 0, 0)
+Speed.TextSize = 41.000
 
-UICorner_6.Parent = Killaura
-
-fly.Name = "fly"
-fly.Parent = MainFrame
-fly.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-fly.BackgroundTransparency = 0.950
-fly.BorderColor3 = Color3.fromRGB(0, 0, 0)
-fly.BorderSizePixel = 0
-fly.Position = UDim2.new(0.60750854, 0, 0.252148986, 0)
-fly.Size = UDim2.new(0, 100, 0, 54)
-fly.Font = Enum.Font.Kalam
-fly.Text = "Fly"
-fly.TextColor3 = Color3.fromRGB(0, 0, 0)
-fly.TextSize = 26.000
-
-UICorner_7.Parent = fly
-
-ee.Name = "ee"
-ee.Parent = MainFrame
-ee.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ee.BackgroundTransparency = 0.950
-ee.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ee.BorderSizePixel = 0
-ee.Position = UDim2.new(0.796928346, 0, 0.252148986, 0)
-ee.Size = UDim2.new(0, 100, 0, 54)
-ee.Font = Enum.Font.Kalam
-ee.Text = "Unfinished"
-ee.TextColor3 = Color3.fromRGB(0, 0, 0)
-ee.TextSize = 26.000
-
-UICorner_8.Parent = ee
+UICorner_5.Parent = Speed
 
 UIAspectRatioConstraint.Parent = ScreenGui
 UIAspectRatioConstraint.AspectRatio = 2.151
 
 -- Scripts:
 
-local function VWHWAN_fake_script() -- _17215085508.LocalScript 
+local function EBYNZN_fake_script() -- _17215085508.LocalScript 
 	local script = Instance.new('LocalScript', _17215085508)
 
 	local frame = script.Parent.Parent.Frame
@@ -194,16 +143,16 @@ local function VWHWAN_fake_script() -- _17215085508.LocalScript
 		frame.Visible = true
 	end)
 end
-coroutine.wrap(VWHWAN_fake_script)()
-local function BUWZ_fake_script() -- _17215085508.LocalScript 
+coroutine.wrap(EBYNZN_fake_script)()
+local function EBJZ_fake_script() -- _17215085508.LocalScript 
 	local script = Instance.new('LocalScript', _17215085508)
 
 	script.Parent.Active = true
 	script.Parent.Selectable = true
 	script.Parent.Draggable = true
 end
-coroutine.wrap(BUWZ_fake_script)()
-local function IMZXGO_fake_script() -- MainFrame.LocalScript 
+coroutine.wrap(EBJZ_fake_script)()
+local function CIREHDU_fake_script() -- MainFrame.LocalScript 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local frame = script.Parent.Parent
@@ -212,8 +161,8 @@ local function IMZXGO_fake_script() -- MainFrame.LocalScript
 		frame.Visible = false
 	end)
 end
-coroutine.wrap(IMZXGO_fake_script)()
-local function KOTFIV_fake_script() -- Close.LocalScript 
+coroutine.wrap(CIREHDU_fake_script)()
+local function LMUIZM_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	local frame = script.Parent.Parent
@@ -222,47 +171,24 @@ local function KOTFIV_fake_script() -- Close.LocalScript
 		frame.Visible = false
 	end)
 end
-coroutine.wrap(KOTFIV_fake_script)()
-local function XDHDTET_fake_script() -- Close.LocalScript 
+coroutine.wrap(LMUIZM_fake_script)()
+local function UZJQ_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.Active = true
 	script.Parent.Selectable = true
 	script.Parent.Draggable = true
 end
-coroutine.wrap(XDHDTET_fake_script)()
-local function KXDN_fake_script() -- MainFrame.LocalScript 
+coroutine.wrap(UZJQ_fake_script)()
+local function ODVFZC_fake_script() -- MainFrame.LocalScript 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	script.Parent.Active = true
 	script.Parent.Selectable = true
 	script.Parent.Draggable = true
 end
-coroutine.wrap(KXDN_fake_script)()
-local function ZQPJPXM_fake_script() -- Speed.LocalScript 
-	local script = Instance.new('LocalScript', Speed)
-
-	local button = script.Parent
-	local Player = game:GetService('Players')
-	local sprinting = false
-	
-	local function sprint()
-		local player = Player.LocalPlayer
-		if sprinting then
-			sprinting = false
-			button.Text = 'Speed'
-			player.Character.Humanoid.WalkSpeed = 24.65
-		else
-			sprinting = true
-			button.Text = 'Speed'
-			player.Character.Humanoid.WalkSpeed = 16
-		end
-	end
-	
-	button.MouseButton1Click:Connect(sprint)
-end
-coroutine.wrap(ZQPJPXM_fake_script)()
-local function XPVWA_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(ODVFZC_fake_script)()
+local function JYYR_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local player = game.Players.LocalPlayer
@@ -299,114 +225,31 @@ local function XPVWA_fake_script() -- TextButton.LocalScript
 	game:GetService("UserInputService").InputBegan:Connect(OnKeyDown)
 	
 end
-coroutine.wrap(XPVWA_fake_script)()
-local function CHKJZN_fake_script() -- Killaura.LocalScript 
-	local script = Instance.new('LocalScript', Killaura)
+coroutine.wrap(JYYR_fake_script)()
+local function LWWV_fake_script() -- Speed.LocalScript 
+	local script = Instance.new('LocalScript', Speed)
 
-	-- Killaura script for using different types of swords
+	local button = script.Parent
+	local Player = game:GetService('Players')
+	local sprinting = false
 	
-	-- Define the player
-	local player = game.Players.LocalPlayer
-	
-	-- Define the range for the killaura
-	local range = 30
-	
-	-- Define the function to check if a character is a valid target
-	local function isValidTarget(character)
-		return character and character:IsA("Model") and character:FindFirstChildOfClass("Humanoid")
-	end
-	
-	-- Define the function to attack valid targets within range
-	local function killAura()
-		for _, character in ipairs(game:GetService("Players"):GetPlayers()) do
-			if character ~= player and (character.Character.HumanoidRootPart.Position - player.Character.HumanoidRootPart.Position).Magnitude <= range then
-				player.Character.HumanoidRootPart.CFrame = CFrame.lookAt(player.Character.HumanoidRootPart.Position, character.Character.HumanoidRootPart.Position)
-				wait(0.1) -- Delay to ensure proper targeting
-				if isValidTarget(character.Character) then
-					-- Attack the target with different swords based on their rarity
-					local sword = player.Character:FindFirstChild("WoodSword") or
-						player.Character:FindFirstChild("StoneSword") or
-						player.Character:FindFirstChild("IronSword") or
-						player.Character:FindFirstChild("DiamondSword") or
-						player.Character:FindFirstChild("EmeraldSword")
-					if sword then
-						sword.RemoteEvent:FireServer(character.Character.HumanoidRootPart.Position)
-					end
-				end
-			end
-		end
-	end
-	
-	-- Start the killaura loop
-	while true do
-		killAura()
-		wait(0.1) -- Adjust the delay as needed for performance
-	end
-	
-end
-coroutine.wrap(CHKJZN_fake_script)()
-local function RLWC_fake_script() -- fly.LocalScript 
-	local script = Instance.new('LocalScript', fly)
-
-	local player = game.Players.LocalPlayer
-	local flyEnabled = false
-	local flyKey = Enum.KeyCode.F -- Default keybind, can be changed by players
-	
-	-- Function to toggle fly
-	local function toggleFly()
-		flyEnabled = not flyEnabled
-		if flyEnabled then
-			game:GetService("StarterPlayer"):SetCore("SendNotification", {
-				Title = "Fly Enabled",
-				Text = "Press "..tostring(flyKey).." to toggle flying.",
-				Duration = 3
-			})
+	local function sprint()
+		local player = Player.LocalPlayer
+		if sprinting then
+			sprinting = false
+			button.Text = 'Speed'
+			player.Character.Humanoid.WalkSpeed = 24.65
 		else
-			game:GetService("StarterPlayer"):SetCore("SendNotification", {
-				Title = "Fly Disabled",
-				Duration = 3
-			})
+			sprinting = true
+			button.Text = 'Speed'
+			player.Character.Humanoid.WalkSpeed = 16
 		end
 	end
 	
-	-- Function to handle key input
-	local function onKeyPress(input)
-		if input.KeyCode == flyKey then
-			toggleFly()
-		end
-	end
-	
-	-- Bind the key input function to key press event
-	game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
-	
-	-- Create the UI
-	local flyButton = Instance.new("TextButton")
-	flyButton.Text = "Fly (Press "..tostring(flyKey)..")"
-	flyButton.Position = UDim2.new(0.5, 0, 0.9, 0)
-	flyButton.Size = UDim2.new(0, 150, 0, 50)
-	flyButton.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui"):WaitForChild("ScreenGui")
-	
-	-- Event listener for button click
-	flyButton.MouseButton1Click:Connect(function()
-		toggleFly()
-	end)
-	
-	-- Main fly loop
-	game:GetService("RunService").RenderStepped:Connect(function()
-		if flyEnabled then
-			player.Character:Move(Vector3.new(0, 0.1, 0), true)
-		end
-	end)
-	
+	button.MouseButton1Click:Connect(sprint)
 end
-coroutine.wrap(RLWC_fake_script)()
-local function DJQKOFZ_fake_script() -- ee.LocalScript 
-	local script = Instance.new('LocalScript', ee)
-
-	
-end
-coroutine.wrap(DJQKOFZ_fake_script)()
-local function SYDFF_fake_script() -- ScreenGui.LocalScript 
+coroutine.wrap(LWWV_fake_script)()
+local function SRDWPUB_fake_script() -- ScreenGui.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	local SGui = script.Parent
@@ -417,4 +260,4 @@ local function SYDFF_fake_script() -- ScreenGui.LocalScript
 		Frame.Visible = not Frame.Visible
 	end)
 end
-coroutine.wrap(SYDFF_fake_script)()
+coroutine.wrap(SRDWPUB_fake_script)()
